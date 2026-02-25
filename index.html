@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Pat Naptár</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-screen">
+        <h2>Üdvözöllek! Add meg a neved:</h2>
+        <input type="text" id="username" placeholder="Neved">
+        <input type="color" id="usercolor" value="#ff0000">
+        <button id="login-btn">Belépés</button>
+    </div>
+
+    <div id="calendar-screen" style="display:none;">
+        <h2 id="welcome-message"></h2>
+        <div id="calendar"></div>
+        <button id="logout-btn">Kilépés</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
